@@ -1,2 +1,3 @@
 # Portfolio
-¡Hola! Soy un desarrollador apasionado por la tecnología y la ciencia de datos, especializado en el ecosistema de Big Data. Actualmente, trabajo enfocándome en análisis de BI y procesamiento de grandes volúmenes de datos.
+Hello! I am a developer passionate about technology and data science, specializing in the Big Data ecosystem. Currently, I am focused on BI analysis and processing large volumes of data.
+You can find me on LinkedIn www.linkedin.com/in/isaias-alarcon or contact me directly via my email 23isaias12@gmail.com.
