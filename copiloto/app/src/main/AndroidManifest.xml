@@ -6,6 +6,10 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
     <!-- Requisito de Android 14+ para los servicios de tipo "connectedDevice". -->
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- GPS, para medir la distancia y la ruta de cada viaje. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
     <!-- Para mostrar la notificación del servicio (Android 13+). -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
@@ -33,7 +37,7 @@
         <service
             android:name=".CarWatcherService"
             android:exported="false"
-            android:foregroundServiceType="connectedDevice" />
+            android:foregroundServiceType="connectedDevice|location" />
     </application>
 
 </manifest>
